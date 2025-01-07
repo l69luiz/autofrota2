@@ -2,7 +2,7 @@
 export const App = () => {
   return (
     <div className="App">
-      teste
+      teste 2
     </div>
   );
 }
