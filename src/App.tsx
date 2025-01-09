@@ -1,9 +1,15 @@
 
-export const App = () => {
+import { BrowserRouter } from 'react-router-dom';
+
+const AppRoutes: React.FC = () => {
   return (
-    <div className="App">
-      teste 2
-    </div>
+
+    <BrowserRouter>
+      <AppRoutes />
+      
+
+
+    </BrowserRouter>
   );
 }
 
