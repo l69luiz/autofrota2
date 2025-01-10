@@ -2,8 +2,8 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { AppRoutes } from './routes';
-import { ThemeProvider } from '@mui/material';
 import { LightTheme } from './shared/themes';
+import { ThemeProvider } from '@mui/material/styles';
 
 export const App = () => {
   return (
